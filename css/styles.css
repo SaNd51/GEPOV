@@ -10952,8 +10952,8 @@ html {
     background: #1abc9c;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -10978,8 +10978,9 @@ html {
 }
 
 .masthead {
-  padding-top:calc(4.1rem + 7.2rem);
-  padding-bottom: 6rem;
+  padding-top: calc(20rem - 100vh);
+  padding-bottom: 10rem;
+  height: 100vh;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
