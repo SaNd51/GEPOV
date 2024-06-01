@@ -167,6 +167,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 abbr[title] {
@@ -10840,11 +10841,13 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding-top: 100px;
+  padding-bottom: calc(100vh - 15rem);
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  padding-bottom: 5rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10979,7 +10982,7 @@ html {
 
 .masthead {
   padding-top: calc(15rem - 100px);
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
   height: 100vh;
 }
 .masthead .masthead-heading {
