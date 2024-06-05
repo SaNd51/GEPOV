@@ -10981,9 +10981,8 @@ html {
 }
 
 .masthead {
-  padding-top: calc(15rem - 100px);
+  padding-top: 6rem;
   padding-bottom: 6rem;
-  height: 100vh;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10998,8 +10997,9 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: 6rem;
     padding-bottom: 6rem;
+    height: 100vh;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11023,7 +11023,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #10715e;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
