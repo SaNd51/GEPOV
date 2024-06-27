@@ -1,3 +1,3 @@
 # GEPOV
 
-https://sand51.github.io/GEPOV/#pub
+https://sand51.github.io/GEPOV/
