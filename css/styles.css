@@ -413,6 +413,8 @@ fieldset {
   border: 0;
 }
 
+
+
 legend {
   float: left;
   width: 100%;
@@ -10984,6 +10986,7 @@ html {
 .masthead {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  height: 100vh;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
