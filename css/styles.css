@@ -604,6 +604,12 @@ progress {
   content: "— ";
 }
 
+.img-galeria img{
+  border-radius: 0.5rem;
+  width: 25%;
+  margin-bottom: 0.25rem;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -649,6 +655,7 @@ progress {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
