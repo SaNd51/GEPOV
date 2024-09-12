@@ -83,7 +83,7 @@
     </nav>
     <!-- Masthead-->
     <a class="navbar-brand" href="#page-top">
-      <div class="btn btn-primary btn-social mb-2" style="position:fixed; right:10px; bottom: 0;" >
+      <div class="btn btn-primary btn-social mb-2" style="position:fixed; right:10px; bottom: 0; z-index: 1;" >
         <i class="fa-solid fa-arrow-up"></i>
       </div>
     </a>
@@ -354,7 +354,7 @@
     <section class="page-section modals bg-primary" id="galeria">
       <div class="container flex-column text-white text-center ">
         <!--Section Heading-->
-        <h2 class="page-section-heading text-uppercase  mb-0">
+        <h2 class="page-section-heading text-uppercase mb-0">
           Galeria
         </h2>
         <!--Grid Items-->
@@ -425,32 +425,40 @@
     <!-- Footer-->
     <footer class="footer text-center" id="contato">
       <div class="container">
-        <div class="container d-flex justify-content-center align-items-center flex-row text-center">
-          <div class="col-sm-4 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Local</h4>            
+        <div class="container d-flex justify-content-center align-items-center flex-row text-center mb-1">
+          <div class="col-sm-6 mb-lg-0">
+            <h4 class="text-uppercase mb-2">Local</h4>            
             <a class="btn btn-outline-secondary" href="https://maps.app.goo.gl/MZyNPSCfeoHdhyfi6" target="_black">
               <p class="lead mb-4"> UEVA - Universidade Estadual Vale do Acaraú. <br/>
               Campus Betânia <br/>
               Sobral/ CE</p>
             </a>
           </div>
-          
           <!-- contato Section Heading-->
-          <div class="col-sm-4 mb-lg-0 d-flex justify-content-center flex-column m-4">
-            <div class="col-sm-11 mb-lg-0 d-flex justify-content-center flex-row m-4">
-              <a
+          <div class="col-sm-4 d-flex justify-content-center mx-2 align-items-center flex-column mb-auto">
+            <h4 class="text-uppercase mb-5">social</h4>
+            <div class="col-sm-11 mb-lg-0 d-flex justify-content-center flex-row ">
+              <!--<a
                  class="btn btn-outline-light btn-social mx-1"
                  data-bs-toggle="modal" data-bs-target="#FormEmail"
-                 ><i class="fas fa-envelope"></i></a>
+                 ><i class="fas fa-envelope"></i></a>-->
+              
               <a
-                 class="btn btn-outline-light btn-social mx-1"
+                 class="btn btn-outline-light btn-social mx-2"
                  href="https://api.whatsapp.com/send/?phone=558899456894&text=%C3%93la%21+equipe+GEPOV&type=phone_number&app_absent=0"  target="_black" 
-                 ><i class="fas fa-phone"></i></a>
+                 ><i class="fab  fa-whatsapp"></i></a>
               <a
-                 class="btn btn-outline-light btn-social mx-1"
+                 class="btn btn-outline-light btn-social mx-2 mb-4"
                  href="https://instagram.com/gepov_uva?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"  target="_black"
-                 ><i class="fab fa-fw fa-instagram"></i></a>
-              </div>    
+                 ><i class="fab fa-instagram"></i></a>
+              </div>      
+          </div>
+          <div class="col-sm-11 d-flex justify-content-center mx-2 align-items-center flex-column mb-1">
+            <div class="img-galeria">
+              <img class="img-fluid w-25 mx-1" src="assets/layout_set_logo.png" alt="...">
+              <img class="img-fluid mx-1" style="width: 40px;" src="assets/uva.png" alt="...">
+
+            </div>
           </div>
         </div>
       </div>
@@ -468,7 +476,7 @@
               <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
               <div class="modal-body text-center pb-5">
                   <div class="container" id="modal1">
-                    
+                    <!--Modal content js-->
                   </div>
               </div>
           </div>
@@ -481,7 +489,7 @@
           <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
             <div class="modal-body text-center pb-5">
               <div class="container">
-        
+                <!--Modal content js-->
               </div> 
             </div>
           </div>
@@ -495,7 +503,7 @@
               <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
               <div class="modal-body text-center pb-5">
                   <div class="container" id="modal3">
-                    <!--Modal content-->
+                    <!--Modal content js-->
                   </div>
               </div>
           </div>
